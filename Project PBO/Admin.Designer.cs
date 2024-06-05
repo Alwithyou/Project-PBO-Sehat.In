@@ -39,6 +39,7 @@
             pictureBox2 = new PictureBox();
             label2 = new Label();
             dataGridView1 = new DataGridView();
+            button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -47,9 +48,10 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(12, 193);
+            button1.Location = new Point(14, 257);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(209, 27);
+            button1.Size = new Size(239, 36);
             button1.TabIndex = 0;
             button1.Text = "Dashboard";
             button1.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(12, 240);
+            button2.Location = new Point(14, 320);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(209, 28);
+            button2.Size = new Size(239, 37);
             button2.TabIndex = 1;
             button2.Text = "Artikel";
             button2.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@
             // button3
             // 
             button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(12, 283);
+            button3.Location = new Point(14, 377);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(209, 28);
+            button3.Size = new Size(239, 37);
             button3.TabIndex = 2;
             button3.Text = "Faskes";
             button3.UseVisualStyleBackColor = true;
@@ -79,9 +83,10 @@
             // button4
             // 
             button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(12, 326);
+            button4.Location = new Point(14, 435);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(209, 28);
+            button4.Size = new Size(239, 37);
             button4.TabIndex = 3;
             button4.Text = "Obat";
             button4.UseVisualStyleBackColor = true;
@@ -90,9 +95,10 @@
             // button5
             // 
             button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.Location = new Point(12, 370);
+            button5.Location = new Point(14, 493);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(209, 28);
+            button5.Size = new Size(239, 37);
             button5.TabIndex = 4;
             button5.Text = "Kritik Saran";
             button5.UseVisualStyleBackColor = true;
@@ -101,9 +107,10 @@
             // button6
             // 
             button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.Location = new Point(12, 450);
+            button6.Location = new Point(14, 600);
+            button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
-            button6.Size = new Size(209, 32);
+            button6.Size = new Size(239, 43);
             button6.TabIndex = 5;
             button6.Text = "Log Out";
             button6.UseVisualStyleBackColor = true;
@@ -112,9 +119,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 0);
+            pictureBox1.Location = new Point(14, 0);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(209, 166);
+            pictureBox1.Size = new Size(239, 221);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
@@ -122,9 +130,10 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(252, 0);
+            pictureBox2.Location = new Point(288, 0);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(650, 166);
+            pictureBox2.Size = new Size(743, 221);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
@@ -133,29 +142,39 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(252, 179);
+            label2.Location = new Point(288, 239);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(179, 30);
+            label2.Size = new Size(235, 37);
             label2.TabIndex = 9;
             label2.Text = "Daftar Pengguna";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(252, 211);
-            dataGridView1.Margin = new Padding(2);
+            dataGridView1.Location = new Point(288, 281);
+            dataGridView1.Margin = new Padding(2, 3, 2, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(650, 288);
+            dataGridView1.Size = new Size(743, 332);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // button7
+            // 
+            button7.Location = new Point(592, 639);
+            button7.Name = "button7";
+            button7.Size = new Size(94, 29);
+            button7.TabIndex = 11;
+            button7.Text = "button7";
+            button7.UseVisualStyleBackColor = true;
+            // 
             // Admin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 510);
+            ClientSize = new Size(1045, 680);
+            Controls.Add(button7);
             Controls.Add(dataGridView1);
             Controls.Add(label2);
             Controls.Add(pictureBox2);
@@ -166,6 +185,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Admin";
             Text = "Admin";
             Load += Admin_Load;
@@ -188,5 +208,6 @@
         private PictureBox pictureBox2;
         private Label label2;
         private DataGridView dataGridView1;
+        private Button button7;
     }
 }
